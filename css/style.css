@@ -1,0 +1,119 @@
+/* font-family: 'Nunito',
+sans-serif;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Roboto Slab',
+serif; */
+html {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+    background-image: url('../images/bg-2.png');
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: 10px 300px;
+    background-attachment: fixed;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.dropdown-item:hover {
+    background: #0d0349;
+    color: #fff;
+}
+
+.navbar {
+    background: #faeef7 !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    color: black;
+    font-weight: 600;
+    font-size: 1.09rem;
+}
+
+.buy-now-btn {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background: #0d0349;
+    color: #fff;
+    margin: 5px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.buy-now-btn:hover {
+    color: #fff;
+    background: #281691;
+}
+
+.carousel-item {
+    padding: 90px 30px 100px 50px;
+    background-color: #faeef7;
+}
+
+.fa-arrow-right {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.price {
+    color: #0d0349;
+    margin: 20px 0px;
+}
+
+.carousel-indicators .active {
+    height: 7px;
+    width: 30px;
+    border-radius: 13px !important;
+    background-image: linear-gradient(to right, #9891ff, #0d0349);
+}
+
+.carousel-indicators li {
+    height: 7px;
+    width: 15px;
+    border-radius: 10px;
+    border-radius: 6px;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin: 10px 4px;
+}
+
+.carousel-item {
+    background-image: url('../images/bg-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: initial;
+}
+
+.card-group {
+    gap: 50px;
+}
+
+.card {
+
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 10px #80808080;
+    border: none;
+    padding: 20px;
+}
+
+
+.card-footer {
+    background: #fff;
+    border: none;
+}
+
+.see {
+    text-transform: lowercase;
+    text-decoration: none;
+}
