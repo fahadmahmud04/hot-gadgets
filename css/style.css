@@ -171,9 +171,13 @@ a {
 }
 
 .back-to-top {
-    padding: 1%;
+    padding: 1% 0px;
     box-sizing: border-box;
     background: #37475a;
+}
+
+.back-to-top h5 {
+    margin: 0.1rem !important;
 }
 
 
@@ -263,10 +267,19 @@ a {
     html {
         font-size: 90%;
     }
+
+    .carousel-item {
+        padding: 3rem 2rem !important;
+    }
 }
 
 @media (min-width:0px) and (max-width:319px) {
     html {
         font-size: 80%;
     }
+
+    .carousel-item {
+        padding: 2rem 1rem !important;
+    }
+
 }
